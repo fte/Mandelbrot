@@ -1,3 +1,5 @@
+![Aperçu de Mandelbrot](screenshot.png)
+
 # Mandelbrot
 
 Mandelbrot est une application macOS écrite en Swift qui permet d'explorer l'ensemble de Mandelbrot.
