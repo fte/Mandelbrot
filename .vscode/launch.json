@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MandelbrotApp}",
+            "name": "Debug MandelbrotApp",
+            "program": "${workspaceFolder:MandelbrotApp}/.build/debug/MandelbrotApp",
+            "preLaunchTask": "swift: Build Debug MandelbrotApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MandelbrotApp}",
+            "name": "Release MandelbrotApp",
+            "program": "${workspaceFolder:MandelbrotApp}/.build/release/MandelbrotApp",
+            "preLaunchTask": "swift: Build Release MandelbrotApp"
+        }
+    ]
+}
