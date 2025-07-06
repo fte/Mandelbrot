@@ -20,6 +20,7 @@ struct MandelbrotView: View {
                 .gesture(
                     MagnificationGesture()
                         .onChanged { value in
+                        print("Magnification value:", value)
                             zoom = max(0.1, value)
                         }
                 )
